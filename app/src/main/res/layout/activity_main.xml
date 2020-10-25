@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="32dp">
+
+
+    <Button
+        android:id="@+id/send_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/receive_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receive Data"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/take_photo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/open_browser_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Browser/App"
+        android:onClick="onButtonClick"/>
+
+
+</LinearLayout>
